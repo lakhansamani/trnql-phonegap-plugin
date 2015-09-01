@@ -11,9 +11,9 @@
 	<platform name="android">
 		<config-file target="res/xml/config.xml" parent="/*">
 			<feature name="Hello">
-				<param name="android-package" value="com.acme.hello.Hello" />
+				<param name="android-package" value="com.acme.plugin.Hello" />
 			</feature>
 		</config-file>
-		<source-file src="src/android/Hello.java" target-dir="com/acme/hello/" />
+		<source-file src="src/android/Hello.java" target-dir="src/com/acme/plugin/" />
 	</platform>
 </plugin>
